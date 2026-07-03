@@ -1,0 +1,15 @@
+[package]
+name = "fitseal"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.4", features = ["derive"] }
+arboard = { version = "3.3", features = ["wayland-data-control"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+tracing-appender = "0.2"
+colored = "2.1"
+similar = "2.4"
+ignore = "0.4"
+rayon = "1.8"
